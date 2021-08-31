@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.JoinClass">
+
+    <CheckBox
+        android:id="@+id/chck_joinClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Join"
+        android:text="Join Class" />
+
+    <CheckBox
+        android:id="@+id/chck_createClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="Create"
+        android:text="Create Class" />
+
+    <FrameLayout
+        android:id="@+id/class_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/l_jclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_class_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Class code" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="JoinClass"
+                android:text="Join" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_cClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_class_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Class Name" />
+
+            <EditText
+                android:id="@+id/et_subject_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject Name" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="CreateClass"
+                android:text="Create" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:textColor="@color/Message"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

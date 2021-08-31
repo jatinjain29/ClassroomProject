@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696980578473",
+    "firebase_url": "https://classroom-2859b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "classroom-2859b",
+    "storage_bucket": "classroom-2859b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696980578473:android:4f4a6c8887dd2f56bb89b8",
+        "android_client_info": {
+          "package_name": "com.example.classroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696980578473-l4c6uf4683bh326sjlulo6mam79bseja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classroom",
+            "certificate_hash": "91ae0c879d3161176950ede4c3ffc1555bf782c9"
+          }
+        },
+        {
+          "client_id": "696980578473-egv6icfjeffashrqtpmul4qo1l8355d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDfmyBdJmbsI-Geb_4oZATzDYF8vn0uO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696980578473-egv6icfjeffashrqtpmul4qo1l8355d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
